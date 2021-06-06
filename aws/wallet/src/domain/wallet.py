@@ -6,7 +6,7 @@ from src.domain.collection import Collection
 
 @dataclass(frozen=True)
 class Wallet:
-    id: str
+    id: int
     name: str
 
 

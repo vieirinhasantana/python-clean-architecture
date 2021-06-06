@@ -3,5 +3,9 @@ from src.interface.driver.wallet_driver import WalletDriver
 
 
 class WalletDriverImpl(WalletDriver):
-    async def get_wallets(self) -> dict:
-        pass
+    def get_wallets(self) -> dict:
+        wallets = {
+            "wallets": [{"id": 0, "name": "teste1"}, {"id": 1, "name": "teste2"}]
+        }
+
+        return wallets

@@ -1,20 +1,7 @@
-# go-clean-arch
-
-## Changelog
-- **v1**: checkout to the [v1 branch](https://github.com/bxcodec/go-clean-arch/tree/v1) <br>
-  Proposed on 2017, archived to v1 branch on 2018 <br>
-  Desc: Initial proposal by me. The story can be read here: https://medium.com/@imantumorang/golang-clean-archithecture-efd6d7c43047
-
-- **v2**: checkout to the [v2 branch](https://github.com/bxcodec/go-clean-arch/tree/v2) <br>
-  Proposed on 2018, archived to v2 branch on 2020 <br>
-  Desc: Improvement from v1. The story can be read here: https://medium.com/@imantumorang/trying-clean-architecture-on-golang-2-44d615bf8fdf
-
-- **v3**: master branch <br>
-  Proposed on 2019, merged to master on 2020. <br>
-  Desc: Introducing Domain package, the details can be seen on this PR [#21](https://github.com/bxcodec/go-clean-arch/pull/21)
+# python-clean-code
 
 ## Description
-This is an example of implementation of Clean Architecture in Go (Golang) projects.
+This is an example of implementation of Clean Architecture in Python projects.
 
 Rule of Clean Architecture by Uncle Bob
  * Independent of Frameworks. The architecture does not depend on the existence of some library of feature laden software. This allows you to use such frameworks as tools, rather than having to cram your system into their limited constraints.
@@ -34,8 +21,6 @@ This project has  4 Domain layer :
 #### The diagram:
 
 ![golang clean architecture](https://github.com/bxcodec/go-clean-arch/raw/master/clean-arch.png)
-
-The original explanation about this project's structure  can read from this medium's post : https://medium.com/@imantumorang/golang-clean-archithecture-efd6d7c43047.
 
 It may different already, but the concept still the same in application level, also you can see the change log from v1 to current version in Master.
 
