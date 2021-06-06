@@ -1,7 +1,8 @@
-from typing import Generic, TypeVar
+# -*- coding: utf-8 -*-
 from dataclasses import dataclass
+from typing import Generic, TypeVar
 
-T = TypeVar('T')
+T = TypeVar("T")
 
 
 @dataclass(frozen=True)

@@ -1,0 +1,22 @@
+[report]
+exclude_lines =
+    pragma: no cover
+    def __repr__
+    if self.debug:
+    if settings.DEBUG
+    raise AssertionError
+    raise NotImplementedError
+    if 0:
+    if __name__ == .__main__.:
+
+[run]
+omit =
+    app/persistence/rabbit/rabbitmq.py
+    *.cfg
+    test/**/*.py
+    test/*.py
+    tests/**/*.py
+    tests/*.py
+    ~/.local/lib/python3.8/site-packages/six.py
+    **/__init__.py
+    venv/**/*
